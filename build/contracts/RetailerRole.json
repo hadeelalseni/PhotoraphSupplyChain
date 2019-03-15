@@ -1,0 +1,300 @@
+{
+  "contractName": "RetailerRole",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor",
+      "signature": "constructor"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3fe6080604052600080fdfea165627a7a723058208e248cdcaa91093baba8026650951ebc14582047dbc75231275c9a4363a5eed20029",
+  "deployedBytecode": "0x6080604052600080fdfea165627a7a723058208e248cdcaa91093baba8026650951ebc14582047dbc75231275c9a4363a5eed20029",
+  "sourceMap": "155:1114:4:-;;;413:31;8:9:-1;5:2;;;30:1;27;20:12;5:2;413:31:4;155:1114;;;;;;",
+  "deployedSourceMap": "155:1114:4:-;;;;;",
+  "source": "pragma solidity ^0.5.0;\n\n// Import the library 'Roles'\nimport \"./Roles.sol\";\n\n// Define a contract 'RetailerRole' to manage this role - add, remove, check\ncontract RetailerRole {\n\n  // Define 2 events, one for Adding, and other for Removing\n  \n  // Define a struct 'retailers' by inheriting from 'Roles' library, struct Role\n\n  // In the constructor make the address that deploys this contract the 1st retailer\n  constructor() public {\n    \n  }\n\n  // Define a modifier that checks to see if msg.sender has the appropriate role\n  modifier onlyRetailer() {\n    \n    _;\n  }\n/* \n  // Define a function 'isRetailer' to check this role\n  function isRetailer(address account) public view returns (bool) {\n    \n  }\n\n  // Define a function 'addRetailer' that adds this role\n  function addRetailer(address account) public onlyRetailer {\n    \n  }\n\n  // Define a function 'renounceRetailer' to renounce this role\n  function renounceRetailer() public {\n    \n  }\n\n  // Define an internal function '_addRetailer' to add this role, called by 'addRetailer'\n  function _addRetailer(address account) internal {\n    \n  }\n\n  // Define an internal function '_removeRetailer' to remove this role, called by 'removeRetailer'\n  function _removeRetailer(address account) internal {\n    \n  } */\n}",
+  "sourcePath": "C:/Users/Hadeel/Desktop/Architect a Blockchain Supply Chain Solution/Part B/Project-6b/Project-6b/project-6/contracts/coffeeaccesscontrol/RetailerRole.sol",
+  "ast": {
+    "absolutePath": "/C/Users/Hadeel/Desktop/Architect a Blockchain Supply Chain Solution/Part B/Project-6b/Project-6b/project-6/contracts/coffeeaccesscontrol/RetailerRole.sol",
+    "exportedSymbols": {
+      "RetailerRole": [
+        195
+      ]
+    },
+    "id": 196,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 185,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:4"
+      },
+      {
+        "absolutePath": "/C/Users/Hadeel/Desktop/Architect a Blockchain Supply Chain Solution/Part B/Project-6b/Project-6b/project-6/contracts/coffeeaccesscontrol/Roles.sol",
+        "file": "./Roles.sol",
+        "id": 186,
+        "nodeType": "ImportDirective",
+        "scope": 196,
+        "sourceUnit": 290,
+        "src": "55:21:4",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 195,
+        "linearizedBaseContracts": [
+          195
+        ],
+        "name": "RetailerRole",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 189,
+              "nodeType": "Block",
+              "src": "434:10:4",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 190,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 187,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "424:2:4"
+            },
+            "returnParameters": {
+              "id": 188,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "434:0:4"
+            },
+            "scope": 195,
+            "src": "413:31:4",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 193,
+              "nodeType": "Block",
+              "src": "553:17:4",
+              "statements": [
+                {
+                  "id": 192,
+                  "nodeType": "PlaceholderStatement",
+                  "src": "564:1:4"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 194,
+            "name": "onlyRetailer",
+            "nodeType": "ModifierDefinition",
+            "parameters": {
+              "id": 191,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "550:2:4"
+            },
+            "src": "529:41:4",
+            "visibility": "internal"
+          }
+        ],
+        "scope": 196,
+        "src": "155:1114:4"
+      }
+    ],
+    "src": "0:1269:4"
+  },
+  "legacyAST": {
+    "absolutePath": "/C/Users/Hadeel/Desktop/Architect a Blockchain Supply Chain Solution/Part B/Project-6b/Project-6b/project-6/contracts/coffeeaccesscontrol/RetailerRole.sol",
+    "exportedSymbols": {
+      "RetailerRole": [
+        195
+      ]
+    },
+    "id": 196,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 185,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:4"
+      },
+      {
+        "absolutePath": "/C/Users/Hadeel/Desktop/Architect a Blockchain Supply Chain Solution/Part B/Project-6b/Project-6b/project-6/contracts/coffeeaccesscontrol/Roles.sol",
+        "file": "./Roles.sol",
+        "id": 186,
+        "nodeType": "ImportDirective",
+        "scope": 196,
+        "sourceUnit": 290,
+        "src": "55:21:4",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 195,
+        "linearizedBaseContracts": [
+          195
+        ],
+        "name": "RetailerRole",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 189,
+              "nodeType": "Block",
+              "src": "434:10:4",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 190,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 187,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "424:2:4"
+            },
+            "returnParameters": {
+              "id": 188,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "434:0:4"
+            },
+            "scope": 195,
+            "src": "413:31:4",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 193,
+              "nodeType": "Block",
+              "src": "553:17:4",
+              "statements": [
+                {
+                  "id": 192,
+                  "nodeType": "PlaceholderStatement",
+                  "src": "564:1:4"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 194,
+            "name": "onlyRetailer",
+            "nodeType": "ModifierDefinition",
+            "parameters": {
+              "id": 191,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "550:2:4"
+            },
+            "src": "529:41:4",
+            "visibility": "internal"
+          }
+        ],
+        "scope": 196,
+        "src": "155:1114:4"
+      }
+    ],
+    "src": "0:1269:4"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
+  },
+  "networks": {
+    "4": {
+      "events": {},
+      "links": {},
+      "address": "0x13535448A625a9A018e8667b66AB9a10AD76EAa3",
+      "transactionHash": "0x4319577263ed2da4ce25aba7bcccdd86e38cc777b64cf87801cfe9a76f693884"
+    },
+    "1550968687169": {
+      "events": {},
+      "links": {},
+      "address": "0x91fb05D11841Ad33ed221c67aA00348486d6f775",
+      "transactionHash": "0x2e0eac7eab394790252c125ece46b3fdc83189d6e56f479cc226551f1480e726"
+    },
+    "1551559738584": {
+      "events": {},
+      "links": {},
+      "address": "0x730Cc19A43548D4396CF97ac61D27A706fF93ff8",
+      "transactionHash": "0xb7540ff8a36ff2d793fdf58824be223086e34cf6c69a770693cd7982b2382fda"
+    },
+    "1552079322179": {
+      "events": {},
+      "links": {},
+      "address": "0x398575736259F808DDCe8e7dD6C3d8093Ee2f7d1",
+      "transactionHash": "0x69feddd4cdea23fec15327b216cf4f4278034fe0c599154193e1a0e683aa4381"
+    },
+    "1552087151559": {
+      "events": {},
+      "links": {},
+      "address": "0xfdd190f3BBC48dc93Bb002f65Ba50Ea0dD6A60fD",
+      "transactionHash": "0x7fb98090e59ca76c6b0ea979b7295f5c55835b423fe05d421ce24d226ca67727"
+    },
+    "1552088110894": {
+      "events": {},
+      "links": {},
+      "address": "0xe5A5efC0158db82e1f8dbE43134715F1a4EA0905",
+      "transactionHash": "0x641f813dbc203e60a6c11ca903d0529dc6c9ad1ea23eed061232a4b07731cead"
+    },
+    "1552090408575": {
+      "events": {},
+      "links": {},
+      "address": "0xE0dE93cc3e06483156e02E3Eee68e06517071512",
+      "transactionHash": "0x1aabe66de87c4c9903a3cdd7a5c0e82a99c855a1284cd185fb643f4c36e9dc5c"
+    },
+    "1552091194344": {
+      "events": {},
+      "links": {},
+      "address": "0x7285e981D014F09A77361eA87079B91c821E060E",
+      "transactionHash": "0xaf48c4540ae04f93d9bb415f7e1d2124f94dff8faa5a36945369837fbaf913bd"
+    }
+  },
+  "schemaVersion": "3.0.1",
+  "updatedAt": "2019-03-10T19:45:48.491Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
